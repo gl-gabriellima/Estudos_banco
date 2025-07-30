@@ -3,3 +3,4 @@ Logica de Programação
 Variável 
 If, else
 While
+Operador ternário
