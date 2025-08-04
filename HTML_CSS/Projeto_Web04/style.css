@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+}
+header{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    color: aliceblue;
+    font-family: Chalkduster, fantasy;
+    font-size: 36px;
+}
+.navegacao{
+    display: flex;
+    color: aliceblue;
+    font-family: Chalkduster, fantasy;
+}
+header ul li {
+    padding: 30px;
+}
+.botao_cabecalho{
+    display: flex;
+    gap: 30px;
+
+}
+ button{
+    width: auto;
+    padding: 10px 40px;
+    border-radius: 200px;
+    background-color: rgb(14, 15, 85);
+    border: 0;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+    align-items: center;
+}
+.texto_forms{
+    color: white;
+}
+.input_tipo1{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding: 10px 0px;
+    border: 0;
+    border-radius: 200px;
+    width: 49%;
+    background-color: rgba(207, 203, 196, 0.7);
+
+}
+.input_tipo2{
+    display: flex;
+    border-radius: 200px;
+    width: 100%;
+    padding: 10px 0px;
+    border: 0;
+    background-color: rgba(207, 203, 196, 0.7);
+}
+.botao_formulario{
+    width: 100%;
+}
+

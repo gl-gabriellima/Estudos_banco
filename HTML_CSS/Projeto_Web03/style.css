@@ -67,11 +67,13 @@ form{
 .botao_formulario{
     padding: 10px;
     position: absolute;
-    top:15%;
-    left: 80%;
-    border-radius: 8px;
+    top:53%;
+    left: 83%;
+    border-radius: 12px;
     background-color: aqua;
-    border: 0
+    border: 0px;
+    width: auto;
+    height: auto;
 }
 footer{
     height: 10vh;
