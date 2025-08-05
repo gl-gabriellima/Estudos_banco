@@ -1,0 +1,15 @@
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+div::first-line{
+    color:crimson;
+}
+.teste{
+    width: 500px;
+}

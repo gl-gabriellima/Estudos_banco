@@ -49,19 +49,21 @@ main{
     align-items: center;
 }
 .container{
-    background-color: rgba(77, 66, 47, 0.7);
+    background-color: rgba(104, 97, 84, 0.7);
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
     justify-content: space-around;
     align-items: center;
     height: 70%;
+    border-radius: 10px 50px;
+    box-shadow: 5px 5px 20px black;
 }
 .texto_forms{
     color: white;
 }
 .input_tipo1{
-    width: 100%;
+    width: 90%;
 
     display: flex;
     justify-content: space-between;
@@ -77,12 +79,12 @@ input{
 .input_tipo2{
     display: flex;
     border-radius: 200px;
-    width: 100%;
-    padding: 10px 0px;
+    width: 80%;
+    padding: 10px 20px;
     border: 0;
     background-color: rgba(207, 203, 196, 0.7);
+    
 }
 .botao_formulario{
-    width: 100%;
+    width: 90%;
 }
-
