@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    padding: 20X;
+    background-color: aqua;
+    width:50px;
+}
