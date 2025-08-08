@@ -5,7 +5,7 @@ header{
     height: 5vh;
 }
 main{
-    background-color: aqua;
+    background-color: rgb(97, 80, 25);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -17,7 +17,6 @@ main{
 .container_card{
     width: 25%;
     height: 45%;
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,12 +26,13 @@ main{
 
 }
 .cards{
-    background-color: rgb(88, 238, 18);
+    background-color: rgb(19, 90, 81);
     width: 90%;
     height: 90%;
     border-radius: 30px;
-    transition: width 3s, height 3s;
+    transition: width 1s, height 1s;
     overflow: hidden;
+    box-shadow: 10px 20px 30px ;
 }
 .cards:hover{
     width: 100%;
@@ -44,4 +44,22 @@ main{
     object-fit: cover;
 
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.container_link{
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold ;
+    text-decoration: underline;
+    text-decoration-color:rgba(0, 255, 255, 0) ;
+}
 
+.container_link:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(7, 32, 32) ;
+
+}
