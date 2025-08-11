@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: blue;
+    height: 10vh;
+}
+main{
+    display: flex;
+}
+.pagina{
+    background-color: aqua;
+}
+nav{
+    background-color: blueviolet;
+    height: 80vh;
+    width: 20vh;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: none;
+    overflow: hidden;
+}
+#botao_menu{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+
+}
